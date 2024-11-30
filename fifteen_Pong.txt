@@ -1,0 +1,30 @@
+Highlights & Device Specific Changes:
+Build type: beta
+Device: Nothing Phone (2) (Pong)
+Device maintainer: GHOST | ゴースト
+
+===== 30-11-2024 =====
+- Add MIUI like sidebar and freeform (Thanks to LMODroid)
+- Introduce QS Music Tile & Volume QS Tile
+- Transport-based toggle support 
+- Firewall: Network access toggle support
+- hacky fix for system_server crash
+- rewrite/fix window change animation
+- make the lock circle icon transparent
+- Introduce Adaptive Playback
+- Forward Port Volume Long Press Skip Tracks 
+- force full screen important apps
+- Forward port QS fling animation boost to NotificationPanelViewController
+- Add motorola clock style
+- Add animations to quick settings tiles
+- Introduce Motorola Notification Peek Display feature
+- Implement ADBRootService
+- Fix exception when retrieving target SDK version
+- Fluent Design-inspired animation
+- Add OTA support 
+- Atempt to fix ui lag while screen recording
+- Import OOS touch sounds
+- Update launcher3 app drawer bg color
+- Fix White background is appearing behind 3rd party icons
+
+NOTE - Some apps may be set to restricted network access due to a dirty flash, as the firewall requests permission during setup. If the network doesn't work for any app, turn on network permission from App Info > Mobile Data Usage.
