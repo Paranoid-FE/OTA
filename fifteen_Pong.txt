@@ -1,30 +1,43 @@
 Highlights & Device Specific Changes:
-Build type: beta
+Build type: Stable release
 Device: Nothing Phone (2) (Pong)
 Device maintainer: GHOST | ゴースト
 
-===== 30-11-2024 =====
-- Add MIUI like sidebar and freeform (Thanks to LMODroid)
+===== 19-12-2024 =====
+- Redesign Lunaris settings
+- Add MIUI like sidebar and freeform (from LMODroid)
 - Introduce QS Music Tile & Volume QS Tile
-- Transport-based toggle support 
-- Firewall: Network access toggle support
-- hacky fix for system_server crash
-- rewrite/fix window change animation
-- make the lock circle icon transparent
+- Firewall Network access toggle support
+- Add Ultra-wide support in snapchat
 - Introduce Adaptive Playback
-- Forward Port Volume Long Press Skip Tracks 
-- force full screen important apps
-- Forward port QS fling animation boost to NotificationPanelViewController
+- Forward Port Volume Long Press Skip Tracks
 - Add motorola clock style
 - Add animations to quick settings tiles
 - Introduce Motorola Notification Peek Display feature
 - Implement ADBRootService
-- Fix exception when retrieving target SDK version
-- Fluent Design-inspired animation
-- Add OTA support 
-- Atempt to fix ui lag while screen recording
-- Import OOS touch sounds
-- Update launcher3 app drawer bg color
-- Fix White background is appearing behind 3rd party icons
+- Fluent Design-inspired ripple animation
+- Add toast & powermenu animation style
+- Add power menu styles from iconify
+- Add smart Pixel
+- Add battery bar settings  
+- Drop Ambient music ticker and add now playing bar
+- Add a toggle for secure tiles on keyguard  
+- Forward port 'HD & wifi calling statusbar icons
+- Improve the new biometric prompt layout
+- Add back brightness slider and notification style 
+- Add qs clock style from iconify
+- Add desktop mode (Only mirror mode works)
+- Introduce new moto style Lockscreen info widgets from iconify 
+- Introduce Lockscreen 4 widget bg styles
+- Update blobs from nos3.0 OBT1 
+- Add Android P system animation 
+- Improve PowerOff alarm service
+- Add hotspot widget
+- Disable Night light for keyguard(lockscreen)
+- Switch mainline spoof to Komodo(Pixel9proXL)
+- Add seekbar and time to media output dialog
+- Optimize Fling velocity and fade duration 
+- Fix janks when expanding QS Panel
+- Many underhood bug fixes and improvment in system stability
 
 NOTE - Some apps may be set to restricted network access due to a dirty flash, as the firewall requests permission during setup. If the network doesn't work for any app, turn on network permission from App Info > Mobile Data Usage.
